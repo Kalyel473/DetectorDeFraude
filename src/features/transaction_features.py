@@ -1,14 +1,4 @@
-"""Engenharia de features para fraude em transacoes de cartao.
 
-Compatibilidade de dataset:
-  * Credit Card Fraud Detection (ULB/Kaggle): Time, V1..V28, Amount, Class.
-    As colunas V1..V28 sao componentes PCA - dados sensiveis mascarados,
-    exatamente a pratica usada em compliance (PCI-DSS / LGPD).
-  * IEEE-CIS ou extratos proprios: qualquer CSV com colunas de valor e tempo.
-  * Se existir uma coluna de cartao (card_id / card / CardID), as features de
-    velocidade sao calculadas por cartao. Sem ela, a serie e tratada como
-    um fluxo unico (degradacao controlada, nunca quebra).
-"""
 from __future__ import annotations
 
 import numpy as np
