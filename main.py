@@ -1,13 +1,4 @@
-#!/usr/bin/env python3
-"""FraudShield BR - entrypoint.
 
-    python main.py --module transaction --demo
-    python main.py --module email --predict data/samples/exemplo_phishing.eml
-    python main.py --module social --train --model bert
-    python main.py --module transaction --evaluate
-
-Uso exclusivamente defensivo: times de seguranca e antifraude.
-"""
 from __future__ import annotations
 
 import sys
