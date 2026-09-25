@@ -1,13 +1,4 @@
-"""Features de texto, URL e cabecalho para deteccao de phishing em e-mail.
 
-Tres blocos de sinal, propositalmente separados para ficarem explicaveis:
-  1. TEXTO     - TF-IDF (1-2 gramas) + contagem de palavras-gatilho por categoria.
-  2. URL       - IP puro, encurtador, TLD suspeito, punycode, typosquatting
-                 (distancia de Levenshtein contra marcas conhecidas) e marca
-                 usada em subdominio/caminho com dominio registravel de terceiro.
-  3. CABECALHO - divergencia From x Reply-To, SPF/DKIM invalido, remetente
-                 freemail se passando por marca, idade do dominio (WHOIS).
-"""
 from __future__ import annotations
 
 import re
