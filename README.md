@@ -55,12 +55,12 @@ Tres regras que a ferramenta nunca quebra:
 Python 3.11 ou superior (testado em 3.14).
 
 ```bash
-git clone <seu-repo> fraudshield-br
+git clone https://github.com/Kalyel473/DetectorDeFraude.git
 cd fraudshield-br
 python -m venv .venv
 # Windows
 .venv\Scripts\activate
-# Linux/macOS
+# Linux/mac
 source .venv/bin/activate
 
 pip install -r requirements.txt
