@@ -1,0 +1,25 @@
+# ---- Nucleo obrigatorio (modo --demo funciona so com isto) ----
+numpy>=1.26
+pandas>=2.0
+scikit-learn>=1.3
+scipy>=1.11
+joblib>=1.3
+matplotlib>=3.7
+rich>=13.0
+
+# ---- Desbalanceamento (SMOTE) ----
+# Se ausente, o FraudShield usa um SMOTE interno de fallback (k-NN)
+imbalanced-learn>=0.11
+
+# ---- Explicabilidade ----
+# Se ausente, o FraudShield usa explicacao por oclusao (fallback interno)
+shap>=0.44
+
+# ---- Opcionais / plugaveis ----
+# BERT / BERTimbau (--model bert)
+# transformers>=4.36
+# torch>=2.1
+# Gradient boosting alternativo (--model xgb)
+# xgboost>=2.0
+# Idade de dominio via WHOIS no modulo de e-mail (--whois)
+# python-whois>=0.8

@@ -1,0 +1,25 @@
+# Dados brutos e processados nunca vao pro repo (LGPD / tamanho)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Modelos treinados e relatorios gerados
+models/*
+!models/.gitkeep
+reports/*
+!reports/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Sistema
+.DS_Store
+Thumbs.db

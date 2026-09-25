@@ -1,0 +1,19 @@
+From: Itau Unibanco Seguranca <seguranca@itau-seguro.top>
+Reply-To: retorno42@mail.ru
+To: cliente@empresa.com.br
+Subject: URGENTE: sua conta Itau sera bloqueada em 24 horas
+Date: Thu, 18 Sep 2026 03:47:11 -0300
+Message-ID: <a91f2@itau-seguro.top>
+Authentication-Results: mx.empresa.com.br; spf=fail smtp.mailfrom=itau-seguro.top; dkim=fail
+Content-Type: text/plain; charset="utf-8"
+
+Prezado cliente,
+
+Detectamos uma movimentacao suspeita e sua conta sera bloqueada.
+Clique aqui para verificar agora: http://itau.verifica-cliente.top/login.php?id=8fa20b1c
+
+Voce tem 24 horas para confirmar seus dados e informe sua senha de 6 digitos
+para validar o cancelamento do pix nao autorizado de R$ 4.780,00.
+
+Atenciosamente,
+Central de Seguranca Itau
