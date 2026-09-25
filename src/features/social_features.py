@@ -1,13 +1,4 @@
-"""Features para deteccao de perfis/posts fraudulentos em redes sociais.
 
-Tres familias de sinal (referencia academica: Cresci et al., fake followers):
-  1. COMPORTAMENTAL - idade da conta, razao seguidores/seguindo, posts por dia,
-     foto de perfil padrao, biografia vazia, digitos no @ (contas geradas).
-  2. TEXTO          - TF-IDF do post + gatilhos de golpe, links encurtados,
-     excesso de hashtags/mencoes, CAPS, emojis, texto repetido entre contas.
-  3. REDE           - contas criadas em rajada (fazenda de bots) detectadas por
-     clustering temporal (DBSCAN sobre o timestamp de criacao).
-"""
 from __future__ import annotations
 
 import hashlib
