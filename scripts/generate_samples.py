@@ -1,18 +1,4 @@
-"""Gera as amostras versionadas de data/samples/ usadas pelo modo --demo.
 
-Sao dados SINTETICOS, criados so para a demonstracao rodar sem depender de
-download do Kaggle, de API paga ou de GPU. As metricas obtidas sobre eles sao
-ilustrativas: para numeros de verdade use os datasets publicos reais
-(creditcard.csv da ULB, Enron + Nazario, Cresci et al.) com --data.
-
-As distribuicoes foram propositalmente SOBREPOSTAS: parte das fraudes se
-disfarca de legitima (BEC sem link, bot bem feito, fraude em horario comercial)
-e parte dos registros legitimos parece suspeita (compra de madrugada, SPF mal
-configurado, conta nova sem bio). Sem essa sobreposicao o modelo acerta 100% e
-a demonstracao fica irreal - falso positivo e falso negativo tem que aparecer.
-
-Uso:  python scripts/generate_samples.py
-"""
 from __future__ import annotations
 
 import sys
